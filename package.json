@@ -1,0 +1,19 @@
+{
+  "name": "ituzovlab-alice",
+  "version": "1.0.0",
+  "description": "Навык для Алисы, который отвечает с помощью нормальных LLM через Timeweb AI Gateway",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --env-file=.env server.js",
+    "build": "echo \"Сборка не нужна\""
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
